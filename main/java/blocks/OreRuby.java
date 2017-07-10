@@ -37,6 +37,8 @@ public class OreRuby extends Block {
 		   return Items.DIAMOND;
 		  }
 		  
+		  
+		  
 		  return ModItems.ruby;
 		 }
 	
