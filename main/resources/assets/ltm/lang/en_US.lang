@@ -1,0 +1,10 @@
+item.obsidianingot.name=Obsidian Ingot
+item.ruby.name=Ruby
+item.tomato.name=Tomato
+item.obsidianchestplate.name=Obsidian Chestplate
+
+tile.rubyblock.name=Block of Ruby
+tile.obsidianblock.name=Block of Metal Obsidian
+tile.rubyore.name=Ruby Ore
+
+itemGroup.tab_tutorial=Tutorial Mod Tab

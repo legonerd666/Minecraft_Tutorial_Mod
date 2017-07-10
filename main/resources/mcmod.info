@@ -1,0 +1,16 @@
+[
+{
+  "modid": "lmt",
+  "name": "Tutorial Mod",
+  "description": "My first mod.",
+  "version": "1.0",
+  "mcversion": "1.11.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": "Legonerd666",
+  "credits": "Legonerd666",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
