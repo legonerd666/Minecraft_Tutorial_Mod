@@ -14,6 +14,8 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import world.TutorialWorldGen;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.ACCEPTED_VERSIONS)
 public class Tutorial {
@@ -41,6 +43,9 @@ public class Tutorial {
 		proxy.init();
 		
 		ModCrafting.register();
+		
+	    GameRegistry.registerWorldGenerator(new TutorialWorldGen(), 0);
+		
 	}
 	
 	@EventHandler

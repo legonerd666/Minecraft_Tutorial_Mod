@@ -12,7 +12,6 @@ public class ModCrafting {
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.obsidianblock), "OOO", "OOO", "OOO", 'O', ModItems.obsidianingot);
 		GameRegistry.addShapedRecipe(new ItemStack(Blocks.PURPLE_SHULKER_BOX), "RRR", "RCR", "RRR", 'R', ModBlocks.rubyblock, 'C', Blocks.CHEST);
 		//GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianchestplate), "O O", "OOO", "OOO", 'O', ModItems.obsidianingot);
-		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ruby), Items.EMERALD, Items.REDSTONE);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ruby, 9), ModBlocks.rubyblock);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.obsidianingot, 9), ModBlocks.obsidianblock);
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tomato), Blocks.VINE, Items.APPLE);
